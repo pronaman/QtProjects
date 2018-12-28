@@ -3,3 +3,5 @@
 ################################################################################
 
 /QtCrossBuildTestApp/.vs/QtCrossBuildTestApp/v15
+/QtCrossBuildTestApp/GeneratedFiles
+/QtCrossBuildTestApp/x64/Debug
