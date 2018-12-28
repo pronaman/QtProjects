@@ -16,4 +16,8 @@ MOC_DIR += ./GeneratedFiles/$(ConfigurationName)
 OBJECTS_DIR += debug
 UI_DIR += ./GeneratedFiles
 RCC_DIR += ./GeneratedFiles
-include(QtCrossBuildTestApp.pri)
+HEADERS += ./QtCrossBuildTestApp.h
+SOURCES += ./main.cpp \
+    ./QtCrossBuildTestApp.cpp
+FORMS += ./QtCrossBuildTestApp.ui
+RESOURCES += QtCrossBuildTestApp.qrc
